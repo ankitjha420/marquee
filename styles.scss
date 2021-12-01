@@ -1,0 +1,30 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: rgb(37, 37, 37);
+    color: whitesmoke;
+    position: relative;
+    overflow-x: hidden;
+}
+.marquee{
+    position: relative;
+    top: 30%;
+    border: 1px whitesmoke solid;
+    width: 200%;
+    left: -50%;
+}
+.marquee__wrapper{
+    position: relative;
+    display: flex;
+}
+span{
+    width: 10vw;
+    border: solid yellow;
+}
